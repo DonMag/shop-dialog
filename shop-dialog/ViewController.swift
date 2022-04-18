@@ -67,6 +67,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+		self.title = "Original"
+		
         let collectionViewCell = CollectionViewCell.getUINib()
         collectionView.register(collectionViewCell, forCellWithReuseIdentifier: "cell")
         
